@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: #2a2a2a;
+}
+
+.navbar a {
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(209, 197, 197);
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: larger;
+    color: white;
+}
+
+time {
+    color: white;
+}
+
+#post {
+    max-width: 70em;
+    margin: 0 auto 0 auto;
+}
+
+img {
+    max-inline-size: 60%;  
+}
+
+#img {
+    text-align: center;
+}
+
+a:visited {
+    color: rgb(209, 197, 197);
+}
+
+a:hover {
+    color: chartreuse;
+}
